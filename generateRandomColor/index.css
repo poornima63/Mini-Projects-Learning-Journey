@@ -1,0 +1,28 @@
+ 
+ .container{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+ }
+
+.colorBox{
+    height:400px;
+    width:400px;
+    border:2px solid black;
+    border-radius:3px;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.generateBtn{
+    height: 50px;
+    width: 200px;
+}
+#rgbColor{
+    font-weight: 900;
+    font-size: 20px;
+}

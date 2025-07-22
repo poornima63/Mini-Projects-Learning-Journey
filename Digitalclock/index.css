@@ -1,0 +1,48 @@
+/* index.css or in a <style> tag */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.digitalclock {
+  background-color: #222;
+  padding: 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.clockbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clockbox span:first-child {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.clockbox span:last-child {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.ampm {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+}

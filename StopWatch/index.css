@@ -1,0 +1,90 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Date */
+.date {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Clock Display */
+.clock {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2193b0;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.start {
+  background-color: #28a745;
+}
+
+.start:hover {
+  background-color: #2188efff;
+}
+
+.stop {
+  background-color: #dc3545;
+}
+
+.stop:hover {
+  background-color: #2188efff;
+}
+
+.reset {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.reset:hover {
+  background-color: #2188efff;
+}
